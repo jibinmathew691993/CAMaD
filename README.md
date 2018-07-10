@@ -1,11 +1,17 @@
 # Relation extraction with weakly supervised learning based on process-structure-property-performance reciprocit
 
 # Paper Replication
-'''
-$ ./go.sh
-'''
+Instruction to replicate our results.
+1. Find your API key to download the corpus.
+2. Find Pos-tagger
+3. Find and put Glove embeddings into `./data/glove.6B.50d.txt`. 
+4. run the following script.
+```
+$ ./go.sh [your_api_key] [pos_tagger]
+```
 
 NOTE) the code will take a few hours. 
+
 
 # Files
 * data/annotation/...dic
@@ -19,10 +25,13 @@ NOTE) here they are factors collected by dictionary mannor since the code replic
 
 
 # Related link
-Corpus [Elsevier Developers](https://dev.elsevier.com)
+Corpus ( [Elsevier Developers](https://dev.elsevier.com) )
 
-Pos tagger [Stanford coreNLP](https://stanfordnlp.github.io/CoreNLP)
+Pos tagger ( [Stanford coreNLP](https://stanfordnlp.github.io/CoreNLP) )
 
-Pre-train Word embedding [GloVe](https://nlp.stanford.edu/projects/glove)
+Pre-train Word embedding ( [GloVe](https://nlp.stanford.edu/projects/glove) ) 
+
+# Citation
+
 
 
