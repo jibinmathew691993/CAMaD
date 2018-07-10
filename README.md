@@ -2,13 +2,14 @@
 
 # Paper Replication
 Instruction to replicate our results.
-1. Find your API key to download the corpus.
-2. Find Pos-tagger
-3. Find and put Glove embeddings into `./data/glove.6B.50d.txt`. 
-4. run the following script.
+1.  Find your API key to download the corpus.
+2.  Find Pos-tagger
+3.  Find and put Glove embeddings into `./data/glove.6B.50d.txt`. 
+4.  run the following script.
 ```
 $ ./go.sh [your_api_key] [pos_tagger]
 ```
+e.g.) `$ ./go.sh "ffwefasdifsojiaf" ~/stanford-corenlp-3.8.0-models/edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger`
 
 NOTE) the code will take a few hours. 
 
