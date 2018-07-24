@@ -24,7 +24,7 @@ NOTE: the script requests [YOUR Elsevier API key](https://dev.elsevier.com).
 ###2nd step: Preprocessing
 Sentences in the corpus are labeled with relationships in PSPP charts as Section 4.
 
-The following command pre-processes the corpus and generates *./data/preprocessed*
+The following command pre-processes the corpus and generates *./data/preprocessed*. 
 ~~~~
 $ cd python
 $ ./preprocess.sh [POS TAGGER]
