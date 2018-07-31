@@ -16,7 +16,7 @@ Our corpus is scientific literature in [Science Direct](https://www.sciencedirec
 
 The following command gives the corpus. 
 ~~~~
-$ cd java
+$ cd python
 $ ./download.sh  [YOUR API KEY]
 ~~~~
 NOTE: the script requests [YOUR Elsevier API key](https://dev.elsevier.com).
@@ -26,7 +26,7 @@ Sentences in the corpus are labeled with relationships in PSPP charts as Section
 
 The following command pre-processes the corpus and generates *./data/preprocessed*. 
 ~~~~
-$ cd python
+$ cd java
 $ ./preprocess.sh [POS TAGGER]
 ~~~~
 NOTE: the script requests a part-of-speech tagger of [Stanford coreNLP](https://stanfordnlp.github.io/CoreNLP). Please use *stanford-corenlp-3.8.0-models/edu/stanford/nlp/models/pos-tagger/english-left3wo
