@@ -4,9 +4,9 @@
 In this study, we develop a computer-aided material design system to represent and extract knowledge related to material design from natural language texts. A machine learning model is trained on a text corpus weakly labeled by minimal annotated relationship data (~100 labeled relationships) to extract knowledge from scientific articles. The knowledge is represented by relationships between scientific concepts, such as {annealing, grain size, strength}. 
 
 ###Citation
-~~~~
+---
 Takeshi Onishi, Takuya Kadohira, Ikumu Watanabe. Relation extraction with weakly supervised learning based on process-structure-property-performance reciprocity. Science and Technology of Advanced Materials. 2018;19(1):649-659.
-~~~~
+---
 The article is [HERE](https://www.tandfonline.com/doi/full/10.1080/14686996.2018.1500852?scroll=top&needAccess=true).
 
 This repository is the source code in our study. You can replicate the distant supervised relation extraction task with this source code. 
