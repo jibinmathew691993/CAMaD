@@ -5,8 +5,9 @@ In this study, we develop a computer-aided material design system to represent a
 
 ###Citation
 ~~~~
-TBA
+Takeshi Onishi, Takuya Kadohira, Ikumu Watanabe. Relation extraction with weakly supervised learning based on process-structure-property-performance reciprocity. Science and Technology of Advanced Materials. 2018;19(1):649-659.
 ~~~~
+The article is [HERE](https://www.tandfonline.com/doi/full/10.1080/14686996.2018.1500852?scroll=top&needAccess=true).
 
 This repository is the source code in our study. You can replicate the distant supervised relation extraction task with this source code. 
 
