@@ -66,8 +66,5 @@ $ ./test.sh
  * [Stanford coreNLP](https://stanfordnlp.github.io/CoreNLP) 
  * [GloVe](https://nlp.stanford.edu/projects/glove) 
 
-
-
-
-
-
+##Lisence
+This source code is licensed under the GNU General Public License. The license allows many free uses.
