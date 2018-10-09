@@ -57,6 +57,20 @@ $ cd python
 $ ./test.sh
 ~~~~
 
+###Drawing a chart
+The following script gives a PSPP design chart for your desired properties. The script requires your lrs file, output file name and property names. The lrs file is a list of scored sentences. The script outputs a PSPP design chart at an HTML file specified by the output file name using the scores in the lrs file. 
+~~~
+$ cd java
+$ mvn exec:java -Dexec.mainClass="us.ttic.takeshi.nims.relation_extraction.online_demo.N_necks" -Dexec.args="--lrs [your_lrs_file] --html [output_file_name] --target_prp \"[property_1]\" \"[property_2]\""
+~~~	
+
+Each line of a LRS file is scored sentence and target factors in the sentence. Here each factor is indicated by "@[factor category]" and "[factor category]@". 
+~~~
+0.8	PRC2STR	@PRC cast PRC@ iron has a @STR pearlite matrix STR@ .	Casting Perlite matrix	"Wikipedia/Pearlite"
+0.9	STR2PRP	the relative proportions of @STR martensite STR@ , ferrite , and cementite determine the mechanical properties such as @PRP tensile strength PRP@ .	Martensite Tensile strength	"Wikipedia/Austenite"
+~~~
+
+
 ##Dependency and Reference
  * Java (openjdk 10.0.1)
  * Maven (Apache Maven 3.5.2)
