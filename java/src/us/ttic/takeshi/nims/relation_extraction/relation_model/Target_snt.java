@@ -76,7 +76,7 @@ public class Target_snt {
 		lrs_line=lrs_line.trim();
 		String[] elms = lrs_line.split("\t");
 		//check
-		if(elms.length>=5) System.err.println("INVALID_FILE_FORMAT : "+lrs_line);
+		if(!(elms.length>=5)) System.err.println("INVALID_FILE_FORMAT : "+lrs_line);
 		
 		//score and type
 		score = Double.parseDouble(elms[0]);
