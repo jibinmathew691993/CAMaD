@@ -35,7 +35,12 @@ public class ArticleSet extends Reader implements Comparable<ArticleSet>{
 	public ArticleSet(File dir) {
 		for(File f : get_xmls(dir)){
 			try {
-				articles.add(new Article(f));
+				Article a = new Article(f);
+				if(a.paragraph().isEmpty()) {
+					System.err.println("unexpected format and no paragraph is foud : "+f);
+				}else {
+					articles.add(a);
+				}
 			} catch (SAXException | IOException | ParserConfigurationException e) {
 				e.printStackTrace();
 			}
